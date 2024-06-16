@@ -1,0 +1,44 @@
+.form-parent
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(160, 219, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    
+}
+
+.form{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: flex-start;
+  }
+
+  .inp
+  {
+    width: 100%;
+    height: 40px;
+    text-indent: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow:0 0 2px grey ;
+
+  }
+  .btn 
+  {
+    padding:  5px 20px;
+    font-weight:bold;
+    background-color: rgb(80, 221, 239);
+    border-radius: 20px;
+    color: aliceblue;
+    border: none;
+
+  }
+
